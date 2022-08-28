@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleViewAttrs">
+        <attr name="CircleView_radius" format="dimension" />
+        <attr name="CircleView_color" format="color" />
+        <attr name="CircleView_progress" format="float" />
+    </declare-styleable>
+</resources>

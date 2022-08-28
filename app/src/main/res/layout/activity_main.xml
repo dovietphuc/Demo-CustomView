@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.example.democustomview.CircleView
+        android:id="@+id/circle_view"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:CircleView_radius="200dp"
+        app:CircleView_color="#ff0000"
+        app:CircleView_progress="13" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/sld_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:valueFrom="0"
+        android:valueTo="100"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Start animation" />
+</LinearLayout>
